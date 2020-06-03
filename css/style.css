@@ -182,11 +182,11 @@ a {
 
 }
 
-.name-price-info:hover .product-tittle {
+.item-product:hover .product-tittle {
     background-color: rgb(26, 188, 156);
 }
 
-.name-price-info:hover .price {
+.item-product:hover .price {
     background-color: rgba(26, 188, 156, 0.5);
 }
 
