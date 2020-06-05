@@ -101,6 +101,8 @@ a {
 
 .header-products {
     font-family: "Roboto";
+    text-decoration: none;
+    color: black;
     font-weight: 700;
     font-size: 50px;
     text-align: center;
