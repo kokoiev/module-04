@@ -5,15 +5,14 @@
 
 body {
     background-color: #fff;
-    margin-left: 140px;
-}
+    text-align: center;
 
-header {
-    margin-left: 120px;
+
 }
 
 main {
-    margin-left: 130px;
+    display: inline-block;
+    text-align: center;
 }
 
 ul {
@@ -28,7 +27,13 @@ a {
     display: block;
 }
 
+.header {
+    display: block;
+    margin-top: 30px;
+}
+
 .site-logo {
+    display: inline-block;
     font-family: 'Roboto';
     font-weight: 400;
     text-transform: uppercase;
@@ -36,6 +41,7 @@ a {
     float: left;
     vertical-align: middle;
     text-decoration: none;
+    color: black;
 
 }
 
@@ -47,13 +53,14 @@ a {
 }
 
 .container {
-    max-width: 1110px;
+    display: inline-block;
+    width: 1110px;
     box-sizing: border-box;
-    margin-top: 30px;
+    text-align: left;
 }
 
 .navigation-links {
-    display: block;
+    display: inline-block;
     float: right;
 }
 
@@ -199,6 +206,7 @@ a {
 .container-second {
     margin-top: 90px;
     width: 1110px;
+    text-align: left;
 }
 
 .all-block-news {
@@ -259,6 +267,7 @@ a {
     border-radius: 3px;
     line-height: 50px;
     vertical-align: middle;
+    margin-bottom: 80px;
 
 }
 
